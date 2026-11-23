@@ -160,12 +160,49 @@ ICONS: dict[str, tuple[str, list[str]]] = {
 }
 
 
-def svg_for(body: list[str]) -> str:
-    inner = "".join(body)
+INK = "#0B120F"
+CATEGORY_COLOUR = {
+    "nav": "#3AA0FF",
+    "action": "#76CC7B",
+    "status": "#E4574C",
+    "social": "#A66CFF",
+    "economy": "#FFC93C",
+    "game": "#4FA95A",
+    "media": "#5AB7FF",
+}
+
+
+def _is_closed(prim: str) -> bool:
+    tag = prim[1:].split()[0]
+    if tag in ("circle", "rect", "polygon"):
+        return True
+    return tag == "path" and "z" in prim.lower()
+
+
+def _with_attrs(prim: str, attrs: str) -> str:
+    return prim[:-2] + " " + attrs + "/>"
+
+
+def svg_for(name: str, category: str, body: list[str]) -> str:
+    """Chunky icon: thick ink outline, category colour with top-light gradient."""
+    grad_id = f"g-{name}"
+    base = CATEGORY_COLOUR[category]
+    defs = (
+        f'<defs><linearGradient id="{grad_id}" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>'
+        f'<stop offset="0.45" stop-color="{base}"/>'
+        f'<stop offset="1" stop-color="{base}" stop-opacity="0.8"/></linearGradient></defs>'
+    )
+    parts: list[str] = []
+    for prim in body:
+        if _is_closed(prim):
+            parts.append(_with_attrs(prim, f'fill="url(#{grad_id})" stroke="{INK}" stroke-width="3"'))
+        else:
+            parts.append(_with_attrs(prim, f'fill="none" stroke="{INK}" stroke-width="6"'))
+            parts.append(_with_attrs(prim, f'fill="none" stroke="url(#{grad_id})" stroke-width="3"'))
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{SIZE}" height="{SIZE}" viewBox="0 0 {SIZE} {SIZE}" '
-        'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
-        f"{inner}</svg>\n"
+        f'stroke-linecap="round" stroke-linejoin="round">{defs}{"".join(parts)}</svg>\n'
     )
 
 
@@ -175,7 +212,7 @@ def main() -> int:
     for name in sorted(ICONS):
         category, body = ICONS[name]
         path = SVG_DIR / f"{name}.svg"
-        path.write_text(svg_for(body), encoding="utf-8")
+        path.write_text(svg_for(name, category, body), encoding="utf-8")
         manifest.append(
             {
                 "name": name,
@@ -183,6 +220,7 @@ def main() -> int:
                 "size": SIZE,
                 "category": category,
                 "license": "repo-authored (CC0)",
+                "style_reference": "capture fournie par Furax (URL source à compléter)",
                 "source": "scripts/build_icons.py",
             }
         )
