@@ -1,0 +1,834 @@
+[
+  {
+    "name": "arrow-down",
+    "path": "icons/svg/arrow-down.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "arrow-left",
+    "path": "icons/svg/arrow-left.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "arrow-right",
+    "path": "icons/svg/arrow-right.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "arrow-up",
+    "path": "icons/svg/arrow-up.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "bag",
+    "path": "icons/svg/bag.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "battery",
+    "path": "icons/svg/battery.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "bell",
+    "path": "icons/svg/bell.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "bone",
+    "path": "icons/svg/bone.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "bow",
+    "path": "icons/svg/bow.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "calendar",
+    "path": "icons/svg/calendar.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "camera",
+    "path": "icons/svg/camera.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "cart",
+    "path": "icons/svg/cart.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "chart",
+    "path": "icons/svg/chart.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "chat",
+    "path": "icons/svg/chat.svg",
+    "size": 24,
+    "category": "social",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "check",
+    "path": "icons/svg/check.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "chevron-left",
+    "path": "icons/svg/chevron-left.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "chevron-right",
+    "path": "icons/svg/chevron-right.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "clock",
+    "path": "icons/svg/clock.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "close",
+    "path": "icons/svg/close.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "cloud",
+    "path": "icons/svg/cloud.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "cog-alt",
+    "path": "icons/svg/cog-alt.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "coin",
+    "path": "icons/svg/coin.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "compass",
+    "path": "icons/svg/compass.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "copy",
+    "path": "icons/svg/copy.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "crown",
+    "path": "icons/svg/crown.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "dice",
+    "path": "icons/svg/dice.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "door",
+    "path": "icons/svg/door.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "download",
+    "path": "icons/svg/download.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "edit",
+    "path": "icons/svg/edit.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "error",
+    "path": "icons/svg/error.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "eye",
+    "path": "icons/svg/eye.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "eye-off",
+    "path": "icons/svg/eye-off.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "filter",
+    "path": "icons/svg/filter.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "fire",
+    "path": "icons/svg/fire.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "flag",
+    "path": "icons/svg/flag.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "flag-alt",
+    "path": "icons/svg/flag-alt.svg",
+    "size": 24,
+    "category": "social",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "gamepad",
+    "path": "icons/svg/gamepad.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "gear",
+    "path": "icons/svg/gear.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "gem",
+    "path": "icons/svg/gem.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "gift",
+    "path": "icons/svg/gift.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "grid",
+    "path": "icons/svg/grid.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "headset",
+    "path": "icons/svg/headset.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "heart",
+    "path": "icons/svg/heart.svg",
+    "size": 24,
+    "category": "social",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "home",
+    "path": "icons/svg/home.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "hourglass",
+    "path": "icons/svg/hourglass.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "image",
+    "path": "icons/svg/image.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "info",
+    "path": "icons/svg/info.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "key",
+    "path": "icons/svg/key.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "keyboard",
+    "path": "icons/svg/keyboard.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "leaf",
+    "path": "icons/svg/leaf.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "link",
+    "path": "icons/svg/link.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "list",
+    "path": "icons/svg/list.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "lock",
+    "path": "icons/svg/lock.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "mail",
+    "path": "icons/svg/mail.svg",
+    "size": 24,
+    "category": "social",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "map",
+    "path": "icons/svg/map.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "medal",
+    "path": "icons/svg/medal.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "menu",
+    "path": "icons/svg/menu.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "mic",
+    "path": "icons/svg/mic.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "minus",
+    "path": "icons/svg/minus.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "moon",
+    "path": "icons/svg/moon.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "mute",
+    "path": "icons/svg/mute.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "pause",
+    "path": "icons/svg/pause.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "paw",
+    "path": "icons/svg/paw.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "phone",
+    "path": "icons/svg/phone.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "pickaxe",
+    "path": "icons/svg/pickaxe.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "play",
+    "path": "icons/svg/play.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "plus",
+    "path": "icons/svg/plus.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "portal",
+    "path": "icons/svg/portal.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "potion",
+    "path": "icons/svg/potion.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "power",
+    "path": "icons/svg/power.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "redo",
+    "path": "icons/svg/redo.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "refresh",
+    "path": "icons/svg/refresh.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "save",
+    "path": "icons/svg/save.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "search",
+    "path": "icons/svg/search.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "settings",
+    "path": "icons/svg/settings.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "share",
+    "path": "icons/svg/share.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "shield",
+    "path": "icons/svg/shield.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "shield-game",
+    "path": "icons/svg/shield-game.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "shovel",
+    "path": "icons/svg/shovel.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "skip-next",
+    "path": "icons/svg/skip-next.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "skip-prev",
+    "path": "icons/svg/skip-prev.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "snowflake",
+    "path": "icons/svg/snowflake.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "sort",
+    "path": "icons/svg/sort.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "star",
+    "path": "icons/svg/star.svg",
+    "size": 24,
+    "category": "social",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "stop",
+    "path": "icons/svg/stop.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "success",
+    "path": "icons/svg/success.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "sun",
+    "path": "icons/svg/sun.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "sword",
+    "path": "icons/svg/sword.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "target",
+    "path": "icons/svg/target.svg",
+    "size": 24,
+    "category": "nav",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "thumbs-up",
+    "path": "icons/svg/thumbs-up.svg",
+    "size": 24,
+    "category": "social",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "ticket",
+    "path": "icons/svg/ticket.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "trash",
+    "path": "icons/svg/trash.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "trophy",
+    "path": "icons/svg/trophy.svg",
+    "size": 24,
+    "category": "economy",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "undo",
+    "path": "icons/svg/undo.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "unlock",
+    "path": "icons/svg/unlock.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "upload",
+    "path": "icons/svg/upload.svg",
+    "size": 24,
+    "category": "action",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "user",
+    "path": "icons/svg/user.svg",
+    "size": 24,
+    "category": "social",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "users",
+    "path": "icons/svg/users.svg",
+    "size": 24,
+    "category": "social",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "volume",
+    "path": "icons/svg/volume.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "wand",
+    "path": "icons/svg/wand.svg",
+    "size": 24,
+    "category": "game",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "warning",
+    "path": "icons/svg/warning.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "wifi",
+    "path": "icons/svg/wifi.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "wrench",
+    "path": "icons/svg/wrench.svg",
+    "size": 24,
+    "category": "media",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  },
+  {
+    "name": "zap",
+    "path": "icons/svg/zap.svg",
+    "size": 24,
+    "category": "status",
+    "license": "repo-authored (CC0)",
+    "source": "scripts/build_icons.py"
+  }
+]
