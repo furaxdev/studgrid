@@ -62,6 +62,8 @@ def normalise_url(src: str) -> str:
     src = html.unescape(src)
     if src.startswith("//"):
         src = "https:" + src
+    elif src.startswith("/"):
+        src = urllib.parse.urljoin("https://devforum.roblox.com", src)
     return src
 
 

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inventaire — Studs Chunky (preview)</title>
+<style>
+:root {
+  --ink: #0B120F; --gold-top: #FFD23F; --gold-bottom: #E0A800;
+  --cream: #FFF6D6; --green-top: #76CC7B; --green-bottom: #4FA95A;
+  --coin: #FFC93C; --danger: #E4574C; --backdrop: #2B6E3A;
+  --stroke: 4px; --shadow: 5px 5px 0 var(--ink); --radius: 14px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--backdrop); color: var(--ink);
+  font-family: "Trebuchet MS", Verdana, sans-serif; font-weight: 700;
+  min-height: 100vh; padding: 16px; }
+.screen { max-width: 1200px; margin: 0 auto; position: relative; }
+.surface { background: var(--cream); border: var(--stroke) solid var(--ink);
+  border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px; }
+.header { background: linear-gradient(180deg, var(--gold-top), var(--gold-bottom));
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  border: var(--stroke) solid var(--ink); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 12px 16px; margin-bottom: 18px; }
+.header h1 { margin: 0; font-size: clamp(22px, 4.5vw, 36px); text-transform: uppercase; }
+.close { flex: 0 0 auto; width: 48px; height: 48px; display: grid; place-items: center;
+  background: var(--danger); color: #fff; border: var(--stroke) solid var(--ink);
+  border-radius: 10px; box-shadow: 4px 4px 0 var(--ink); font: 900 24px/1 sans-serif; }
+.btn { min-height: 48px; padding: 10px 16px; display: inline-flex; align-items: center;
+  justify-content: center; gap: 10px; border-radius: 12px; font: 900 18px/1 sans-serif;
+  background: linear-gradient(180deg, var(--green-top), var(--green-bottom)); color: var(--cream);
+  border: var(--stroke) solid var(--ink); box-shadow: 4px 4px 0 var(--ink); cursor: pointer; }
+.btn.alt { background: linear-gradient(180deg, var(--gold-top), var(--gold-bottom)); color: var(--ink); }
+.btn.bad { background: var(--danger); color: #fff; }
+.coin { width: 22px; height: 22px; border-radius: 50%; background: var(--coin);
+  border: 3px solid var(--ink); display: inline-block; flex: 0 0 auto; }
+.price { display: inline-flex; align-items: center; gap: 8px; font-weight: 900; font-size: 18px; }
+.tag { display: inline-block; background: var(--gold-top); border: 3px solid var(--ink);
+  border-radius: 8px; padding: 2px 8px; font-size: 14px; box-shadow: 2px 2px 0 var(--ink); }
+.ribbon { position: absolute; top: -14px; right: -10px; transform: rotate(-6deg);
+  background: var(--danger); color: #fff; border: 3px solid var(--ink); border-radius: 8px;
+  padding: 4px 12px; font-size: 14px; box-shadow: 3px 3px 0 var(--ink); }
+.input { background: #fff; border: 3px solid var(--ink); border-radius: 10px; padding: 12px;
+  font-size: 17px; font-weight: 600; min-height: 48px; }
+.bar { background: #fff; border: 3px solid var(--ink); border-radius: 10px; height: 22px; overflow: hidden; }
+.bar > i { display: block; height: 100%; background: linear-gradient(180deg, var(--green-top), var(--green-bottom)); }
+.tile { background: #fff; border: 3px solid var(--ink); border-radius: 12px;
+  display: grid; place-items: center; box-shadow: 3px 3px 0 var(--ink); min-height: 96px; }
+.muted { font-weight: 600; font-size: 16px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(3, 1fr); }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 17px; }
+@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } .header h1 { font-size: 22px; } }
+@media (max-width:760px){section.surface{grid-template-columns:repeat(3,1fr)!important}}</style></head>
+<body><main class="screen">
+<header class="header"><h1>Inventaire</h1><button class="close" aria-label="Fermer">X</button></header>
+<section class="surface" style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px"><div class="tile" style="font-size:15px">Casque</div><div class="tile" style="font-size:15px">Pelle</div><div class="tile" style="font-size:15px">Veste</div><div class="tile" style="font-size:15px">Gants</div><div class="tile" style="font-size:15px">Lampe</div><div class="tile" style="font-size:15px">Sac</div><div class="tile" style="font-size:15px">Carte</div><div class="tile" style="font-size:15px">Potion</div><div class="tile" style="font-size:15px">Clé</div><div class="tile" style="font-size:15px">Bottes</div><div class="tile" style="font-size:15px">Fusée</div><div class="tile" style="font-size:15px">Livre</div></section>
+<div class="row" style="margin-top:14px;color:var(--cream);text-shadow:2px 2px 0 var(--ink)"><span>12 / 32 emplacements</span><span>Trier</span></div>
+</main></body></html>
